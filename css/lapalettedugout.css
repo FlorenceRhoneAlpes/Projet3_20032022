@@ -1,0 +1,56 @@
+body
+{
+    font-family:Roboto, Verdana, Geneva, Tahoma, sans-serif;
+    margin:auto;
+    max-width:992px
+}
+
+*
+{
+box-sizing: border-box;
+}
+.header
+{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 10px;
+}
+.objetfleche i
+{
+    font-size:30px;
+    margin-right: 20px;
+}
+.logo img
+{
+    width: 196px;
+    height:34px;
+}
+#section1 img
+{
+ width:20%;
+}
+#section2
+{
+
+}
+.intitule h1
+{
+font-family: roboto;
+}
+h1 i a
+{
+
+}
+.menu
+{
+
+}
+.description
+{
+
+}
+h2 p
+{
+
+}
