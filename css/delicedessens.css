@@ -67,8 +67,8 @@ body
 }
 .intitule a i:hover
 {
-    font-weight:bold;
-	color:blueviolet;
+    color:blueviolet;
+	font-weight:bold;
 }
 .description
 {

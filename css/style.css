@@ -1,18 +1,14 @@
 /*
-font-family: 'Roboto', sans-serif;
-font-family: 'Shrikhand', cursive;
-
-$violetprimaire:#9356DC
-$fushiasecondaire:#FF79DA
-$bleucieltertiaire:#99E2D0 
+violetprimaire:#9356DC
+fushiasecondaire:#FF79DA
+bleucieltertiaire:#99E2D0 
 */
 body
 {
     font-family:Roboto, Verdana, Geneva, Tahoma, sans-serif;
     margin:auto;
-    max-width:992px
+    max-width:992px;
 }
-
 *
 {
 box-sizing: border-box;
@@ -39,9 +35,9 @@ box-sizing: border-box;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 20px 0px 10px 0px;
+    margin: 20px 10px 10px 10px;
     background-color: #f2f2f2;
-   
+	padding-bottom:40px;
 }
 #section1 h1
 {
@@ -58,33 +54,34 @@ box-sizing: border-box;
     text-align: center;
     font-size:22px;
 }
-
 .carteim 
 {
-   
-    
-    background-color:#ebe7e7;
+	background-color:#ebe7e7;
     height:80px;
     width:100%;
     border-radius:5px 5px 5px 5px;
     box-shadow: inset 0px 10px 10px #e0dede;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	
+}
+.carteim  i
+{
+	padding-top:-50px;
+	
 }
 
-.cartei 
-{
-    font-size: 20px;
-   
-    
-}
 #ville
 {
     font-size: 22px;
     font-weight: bold;
-   
-    border-style: none;
+	border-style: none;
     font-family: Roboto, sans-serif;
     background-color:#ebe7e7;
-   
+	text-align:center;
+	padding:0px -20px;
+	width:200px;
 }
 a
 {
@@ -106,6 +103,7 @@ color:white;
     border:0.1em rgb(185, 182, 182) solid;
     box-shadow: 5px 5px 5px #f6e8f2;
     background: linear-gradient(to top,#9356DC 0%, #FF79DA 100%);
+	
 }
 #section2
 {
@@ -113,6 +111,7 @@ color:white;
     flex-direction: column;
     background: white;
     margin-top:20px;
+	margin-bottom:38px;
 }
 #Fonctionnement
 {
@@ -171,8 +170,6 @@ color:white;
     display:flex;
     flex-direction: column;
     background: #f2f2f2;
-    margin-top:20px;
-    margin-bottom:30px;
 }
 #section3 h1
 {
@@ -185,6 +182,8 @@ article
 {
     display:flex;
     flex-wrap: wrap;
+	justify-content:space-between;
+	margin:10px;
 }
 article p
 {
@@ -258,7 +257,6 @@ footer
     display:flex;
     flex-direction:column;
     background-color: rgb(56, 55, 55);
-    margin-bottom: 20px; 
 }
 .logofooter
 {
@@ -278,7 +276,7 @@ margin-top: -20px;
 {
 width:5%;
 height: 2.5%;
-padding: 15px 10px 0px 0px;
+padding: 15px 25px 0px 0px;
 }
 .text
 {
