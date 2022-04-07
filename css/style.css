@@ -64,14 +64,11 @@ box-sizing: border-box;
 	display:flex;
 	justify-content:center;
 	align-items:center;
-	
 }
 .carteim  i
 {
 	padding-top:-50px;
-	
 }
-
 #ville
 {
     font-size: 22px;
@@ -88,10 +85,6 @@ a
 text-decoration: none;
 color:white;
 }
-/*.explorer:hover
-{
-    background:linear-gradient(to top, #9356DC 10%, #FF79DA 60%);
-}*/
 .explorer 
 {
     font-family:Roboto, Verdana, sans-serif;
