@@ -85,7 +85,7 @@ a
 text-decoration: none;
 color:white;
 }
-.explorer 
+/*.explorer 
 {
     font-family:Roboto, Verdana, sans-serif;
     border-radius: 40px 40px 40px 40px;
@@ -97,6 +97,21 @@ color:white;
     box-shadow: 5px 5px 5px #f6e8f2;
     background: linear-gradient(to top,#9356DC 0%, #FF79DA 100%);
 	
+}*/
+.btn
+{
+	font-family:Roboto, Verdana, sans-serif;
+    border-radius: 40px 40px 40px 40px;
+    font-size: 18px; 
+    color:white;
+    height:70px;
+    width: 300px; 
+    border:0.1em rgb(185, 182, 182) solid;
+    box-shadow: 5px 5px 5px #f6e8f2;
+    background: linear-gradient(to top,#9356DC 0%, #FF79DA 100%);
+	cursor:pointer;
+	text-align:center;
+	padding-top:18px;
 }
 #section2
 {

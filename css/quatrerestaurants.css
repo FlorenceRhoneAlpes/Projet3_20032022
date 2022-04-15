@@ -57,6 +57,8 @@ body
 	padding-top:30px;
 	padding-left:70px;
 	font-size:20px;
+	
+    
 }
 @media screen and (max-width:375px)
 {
@@ -69,6 +71,8 @@ body
 {
     font-weight:bold;
 	color:blueviolet;
+	box-shadow: 5px 5px 5px #f6e8f2;
+    background: linear-gradient(to top,#9356DC 0%, #FF79DA 100%);
 }
 .description
 {
@@ -155,3 +159,9 @@ body
 {
 	justify-content:center;
 	display:flex;
+}
+.commander:hover
+{
+	
+}
+	
