@@ -65,13 +65,14 @@ body
 	padding-left:32px
 }
 }
-.intitule a i:hover
+.intitule i:hover
 { 
-	
-    font-weight:bold;
+	font-weight:bold;
 	color:blueviolet;
-	
-    background: linear-gradient(to top,#9356DC 0%, #FF79DA 100%);
+	background: linear-gradient(170deg,#FF79DA 0%,#9356DC 100%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .description
 {

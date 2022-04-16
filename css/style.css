@@ -253,6 +253,10 @@ border-radius:10px 10px 0px 0px;
 {
     color:#9356DC;
     font-weight:bold ;
+    background: linear-gradient(170deg,#FF79DA 0%,#9356DC 100%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 footer
 {
