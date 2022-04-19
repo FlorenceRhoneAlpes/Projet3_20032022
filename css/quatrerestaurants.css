@@ -99,8 +99,26 @@ body
 	display:flex;
 	justify-content:space-between;
 	cursor:pointer;
-	transform:scale(0.8);
-	transition: transform 1000ms linear;
+}
+
+@keyframes progressionmenu {
+    0% {
+        transform: scaleX(0.5);
+		margin-top:100%;
+		width:100%;
+		}
+    
+    100% {
+        transform: scaleX(1);
+    }
+}
+.menu{
+	animation-duration: 10s;
+	animation-name:progressionmenu;
+  }
+.menu:hover
+{
+transform:scale(0.5);
 }
 .info h2
 {
